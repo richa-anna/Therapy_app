@@ -1,6 +1,4 @@
 
-
-### Deployment
 **Tech Stack**
 ReactJS (Create React App)
 CSS(manual styling, no UI libraries like MUI/Chakra used)
