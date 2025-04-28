@@ -1,0 +1,60 @@
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+.logo{background: linear-gradient(90deg, #2D9CDB, #6C5CE7);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;  
+}
+
+.topbar.dark {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+.topbar .logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: inherit;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #3498db;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.theme-toggle:hover {
+  color: #3498db;
+}

@@ -1,0 +1,137 @@
+.tools-container {
+  background: #f9fff5;
+  padding: 50px 20px;
+}
+
+.tools-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tools-badge {
+  background: #e5e1fb;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #6a60c8;
+}
+
+.tools-header h2 {
+  font-size: 2rem;
+  margin: 15px 0 10px;
+}
+
+.tools-header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.tools-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tools-left {
+  flex: 2;
+}
+
+.tools-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exercise-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.exercise-list {
+  margin-top: 20px;
+}
+
+.exercise-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.exercise-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.purple { background: #7b61ff; }
+.green { background: #30c56d; }
+.orange { background: #f8b337; }
+.blue { background: #5d7efb; }
+
+.progress-section {
+  margin-top: 30px;
+}
+
+.progress-bar {
+  background: #e8e8e8;
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  background: linear-gradient(to right, #5d7efb, #7b61ff);
+  height: 100%;
+}
+
+.personalized-card, .mood-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.personalized-card {
+  background: linear-gradient(90deg, #e5d5fc, #fbdada);
+}
+
+.mood-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.mood {
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  background: #f0f0f0;
+}
+
+.mood.low { background: #ffe0e0; }
+.mood.mild { background: #ffefcc; }
+.mood.okay { background: #fffad1; }
+.mood.good { background: #d6f5e5; }
+.mood.great { background: #dde9ff; }
+
+.mood.active {
+  border: 2px solid #7b61ff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .tools-content {
+    flex-direction: column;
+  }
+}
